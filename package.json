@@ -7,7 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.5",
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "cookies": "^0.9.1",
     "dotenv": "^16.4.5",
     "gsap": "^3.12.5",
