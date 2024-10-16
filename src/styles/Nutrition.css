@@ -1,0 +1,257 @@
+.nutrition-info-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.nutrition-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.nutrition-subheading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.nutrition-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nutrition-input input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.nutrition-input button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nutrition-input button:hover {
+    background-color: #e40b0b;
+}
+
+.nutrition-details {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.nutrition-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.nutrition-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.nutrition-facts {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.nutrition-facts ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nutrition-facts ul li {
+    font-size: 0.9rem;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.nutrition-facts ul li strong {
+    color: #333;
+}
+
+.nutrition-facts ul li span {
+    color: #666;
+}
+
+.nutrition-facts ul li:last-child {
+    border-bottom: none;
+}
+
+.nutrition-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.nutrition-facts {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.nutrition-facts ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nutrition-facts ul li {
+    font-size: 0.9rem;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.nutrition-facts ul li strong {
+    color: #333;
+}
+
+.nutrition-facts ul li span {
+    color: #666;
+}
+
+.nutrition-facts ul li:last-child {
+    border-bottom: none;
+}
+
+/* Style for the Serving Size */
+.serving-size {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.nutrition-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nutrition-details li {
+    padding: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.burn-info {
+    margin-top: 20px;
+}
+
+.burn-activity {
+    margin-bottom: 10px;
+}
+
+.burn-activity h5 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.burn-activity p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Style the activity container */
+.activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    /* Adjust as needed for spacing */
+}
+
+/* Circular container for the icon */
+.icon-container {
+    width: 60px;
+    height: 60px;
+    background-color: #f6fbf4;
+    /* Customize background color */
+    border-radius: 50%;
+    /* Makes the container circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    /* Space between icon and text */
+}
+
+/* Icon image size */
+.icon {
+    width: 40px;
+    height: 40px;
+    /* Adjust as needed */
+}
+
+/* Activity information styles */
+.activity-info h5 {
+    color: #4b8673;
+    /* Customize text color */
+    margin: 0;
+    /* Remove default margin */
+    font-size: 1.25rem;
+    /* Adjust font size */
+}
+
+.activity-info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    /* Customize text color */
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .nutrition-info-container {
+        padding: 10px;
+    }
+
+    .nutrition-input input {
+        width: 70%;
+    }
+
+    .nutrition-details {
+        padding: 15px;
+    }
+
+    .burn-activity p {
+        font-size: 0.9rem;
+    }
+}

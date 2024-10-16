@@ -1,0 +1,189 @@
+.exercise-detail {
+    margin-top: 96px;
+    padding: 20px;
+}
+
+.detail {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.detail-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.detail-content h2 {
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.detail-content p {
+    font-size: 24px;
+    color: #4F4C4C;
+}
+
+.extra-detail {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon-button {
+    background: #FFF2DB;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-button img {
+    width: 50px;
+    height: 50px;
+}
+
+.extra-detail span {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.exercise-videos {
+    margin-top: 203px;
+}
+
+.exercise-videos h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 33px;
+}
+
+.exercise-videos h2 span {
+    color: #FF2625;
+    text-transform: capitalize;
+}
+
+.videos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.exercise-video {
+    text-decoration: none;
+    color: #000;
+}
+
+.exercise-video img {
+    border-top-left-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.exercise-video h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.exercise-video p {
+    font-size: 14px;
+}
+
+.similar-exercises {
+    margin-top: 100px;
+}
+
+.similar-exercises h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 33px;
+    margin-left: 20px;
+}
+
+.similar-exercises h2 span {
+    color: #FF2625;
+    text-transform: capitalize;
+}
+
+.exercises-container {
+    padding: 20px;
+    position: relative;
+}
+
+.exercise-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.exercise-item {
+    width: 200px;
+    text-align: center;
+}
+
+.exercise-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.exercise-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+    .exercise-detail {
+        margin-top: 60px;
+    }
+
+    .detail {
+        flex-direction: column;
+    }
+
+    .detail-content h2 {
+        font-size: 30px;
+    }
+
+    .detail-content p {
+        font-size: 18px;
+    }
+
+    .exercise-videos {
+        margin-top: 20px;
+    }
+
+    .exercise-videos h2,
+    .similar-exercises h2 {
+        font-size: 25px;
+    }
+
+    .videos-container {
+        gap: 0;
+    }
+
+    .exercise-video h3 {
+        font-size: 18px;
+    }
+
+    .extra-detail span {
+        font-size: 20px;
+    }
+}

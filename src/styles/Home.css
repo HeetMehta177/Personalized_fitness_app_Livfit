@@ -1,0 +1,287 @@
+#home {
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.fq {
+    color: rgb(0, 0, 0) !important;
+    margin-left: 750px;
+    margin-top: 60px;
+    font-size: 1.7em;
+    margin-right: 250px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fitnessq {
+    width: 45%;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 5%;
+}
+
+.quotation {
+    margin-left: 570px;
+    margin-top: -350px;
+    width: 2%;
+    height: 2%;
+}
+
+.fithead {
+    margin-left: 700px;
+    margin-top: -300px;
+}
+
+.siq {
+    color: #000000;
+    font-size: 4.2em;
+    font-family: futura;
+
+
+}
+
+.authour {
+    color: #000000;
+    margin-top: 25px;
+
+}
+
+.loading {
+    margin-left: 750px;
+    margin-top: 60px;
+    color: #000000;
+}
+
+#center {
+    height: 75vh;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000003c;
+    padding-bottom: 0.5vw;
+}
+
+#left h3 {
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+
+#center h1 {
+    font-size: 10vw;
+    text-align: right;
+    line-height: 9.5vw;
+}
+
+video {
+    position: relative;
+    border-radius: 30px;
+    margin-top: 1vw;
+    width: 100%;
+}
+
+#hero-shape {
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    right: 0;
+    top: 60vh;
+}
+
+#hero-1 {
+    background-color: #FE320A;
+    height: 100%;
+    width: 100%;
+    border-radius: 65%;
+    animation-name: anime2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: blur(30px);
+    position: absolute;
+    z-index: -10;
+}
+
+#hero-2 {
+    background: linear-gradient(#FE320A, #fe3f0a);
+
+    height: 40vw;
+    width: 50vw;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    filter: blur(25px);
+    z-index: -10;
+
+}
+
+#hero-3 {
+    background: linear-gradient(#FE320A, #fe3f0a);
+    height: 30vw;
+    position: absolute;
+    width: 30vw;
+    border-radius: 50%;
+    filter: blur(25px);
+    animation-name: anime1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -10;
+
+}
+
+@keyframes anime1 {
+    from {
+        transform: translate(55%, -3%);
+    }
+
+    to {
+        transform: translate(0%, 10%);
+    }
+}
+
+@keyframes anime2 {
+    from {
+        transform: translate(5%, -5%);
+    }
+
+    to {
+        transform: translate(-20%, 30%);
+    }
+}
+
+.faq {
+    align-items: center;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    padding: 10px 15px;
+    /* Reduced padding for a smaller height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    /* Smaller font size */
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+    background-color: #e2e2e2;
+}
+
+.accordion-content {
+    padding: 12px 15px;
+    /* Adjusted padding to match the smaller header */
+    font-size: 0.95rem;
+    /* Slightly smaller content font size */
+    line-height: 1.5;
+    background-color: #fff;
+    color: #555;
+}
+
+.accordion-header span {
+    font-size: 1.2rem;
+    /* Slightly smaller icon */
+    color: #666;
+    transition: transform 0.3s;
+}
+
+.accordion-item .accordion-header:hover span {
+    transform: rotate(90deg);
+    /* Rotation effect remains */
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+/* Add some responsive adjustments */
+@media (max-width: 600px) {
+    .accordion {
+        max-width: 90%;
+    }
+
+    .accordion-header {
+        font-size: 0.8rem;
+        /* Even smaller font size on smaller screens */
+        padding: 8px 12px;
+        /* Adjusted padding for mobile */
+    }
+
+    .accordion-content {
+        font-size: 0.85rem;
+    }
+}
+
+/* @media (max-width:600px) {
+    #home {
+        min-height: 100vh;
+        width: 100vw;
+        padding: 0 0vw;
+    }
+
+    #center {
+        height: 62vh;
+        width: 100%;
+        /* background-color: orange; 
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid #0000003c;
+        padding: 7vw 5vw;
+        padding-bottom: 10vw;
+        flex-direction: column-reverse;
+        position: relative;
+        z-index: 9;
+    }
+
+    #left h3 {
+        width: 80%;
+        font-size: 5.5vw;
+        line-height: 6vw;
+    }
+
+    #center h1 {
+        font-size: 17vw;
+        text-align: right;
+        line-height: 15vw;
+    }
+
+    video {
+        position: relative;
+        border-radius: 15px;
+        margin-top: 4vw;
+        height: 70vh;
+        object-fit: cover;
+        object-position: center;
+        width: 90%;
+        margin-left: 3%;
+    }
+} */
